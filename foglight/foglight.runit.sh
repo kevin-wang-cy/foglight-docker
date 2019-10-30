@@ -10,4 +10,4 @@ fi
 
 chown -R foglight:foglight $FMS_DIR
 
-exec chpst -u foglight $FMS_DIR/bin/fms -s -Xdebug -Xrunjdwp:transport=dt_socket,server=y, suspend=n,address=65000 -Dquest.debug=2
+exec chpst -u foglight $FMS_DIR/bin/fms -s -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=65000 -Dquest.debug=2
